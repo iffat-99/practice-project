@@ -1,0 +1,24 @@
+nav{
+    background-color: rgb(198, 163, 208);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo
+{
+    font-weight: 800;
+}
+
+.navlist > ul >li
+{
+    display: inline;
+    margin: 10px;
+   
+}
+.navlist > ul >li >a
+{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
