@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
-    <link rel="stylesheet" href="style/style.css">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form</title>
+   <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
    <header>
-<h3> Fill up the Form</h3>    
+      <h3> Fill up the Form</h3>
    </header>
    <main>
-      <label for="Name">Your Name : 
-      <input type="text" placeholder="Name"> </label>
-<label for="Age">Your Age :
-<input type="number" name="" id="" placeholder="Age">
-</label>
-<fieldset>
-   <legend>Gender
-   </legend>
-      <label for="female">
-         <input type="radio" name="gender" id="Female">Female
-      </label>
-      <label for="male">
-      
-      <input type="radio" name="gender" id="male">Male
-   </label>
-</fieldset>
-<fieldset>
-   <label for="instruction">Special Instruction
-      
-   </label>
-   <textarea name="" id="" cols="50" rows="5"></textarea>
-</fieldset>
-<label for="tandc">
-   <input type="checkbox" name="check" id="">Accept terms & condition
-</label>
+      <form action="">
+         <label for="Name">Your Name :
+            <input type="text" placeholder="Name"> </label>
+         <label for="Age">Your Age :
+            <input type="number" name="" id="" placeholder="Age">
+         </label>
+         <fieldset>
+            <legend>Gender
+            </legend>
+            <label for="female">
+               <input type="radio" name="gender" id="Female">Female
+            </label>
+            <label for="male">
+
+               <input type="radio" name="gender" id="male">Male
+            </label>
+         </fieldset>
+         <fieldset>
+            <label for="instruction">Special Instruction
+
+            </label>
+            <textarea name="" id="" cols="40" rows="2"></textarea>
+         </fieldset>
+         <label for="tandc">
+            <input type="checkbox" name="check" id="">Accept terms & condition
+         </label>
+         <input type="reset" value="Reset">
+         <input type="submit" value="Submit">
+      </form>
 
    </main>
 </body>
+
 </html>
