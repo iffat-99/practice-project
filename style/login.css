@@ -1,0 +1,73 @@
+.main
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+    height: 50vh;
+}
+.font
+{
+    background-color: #719dd3;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    
+}
+.logo
+{
+font-size: 2rem;
+}
+.login
+{
+    background-color: antiquewhite;
+    width: 100%;
+    margin-left: 200px;
+    height: 100%;
+}
+label
+{
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    font-weight: bold;
+}
+.loginform , .loginh1
+{
+    margin-left: 50px;
+    text-align: center;
+}
+.loginh1
+{
+    font-size: 40px;
+    text-align: center;
+}
+.username
+{
+    font-size: 10px;
+}
+.loginform input
+{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.loginform .btn
+{
+    width: 93%;
+    padding: 10px;
+    background: #4facfe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size :1.2em;
+    cursor: pointer;
+    transition:0.3s;
+    text-align: ;
+}
+.loginform .btn:hover {
+    background: #719dd3;
+}
